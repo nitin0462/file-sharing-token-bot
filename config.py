@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7460381086:AAHqAyjcwID48jC_m6iUUXrH2zcIp3PSKzs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7460381086:AAG0Yi3lLp6KTxTWj8FzmSOWbrl5rNv53J0")
 
 # Your API ID & API HASH from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28123695"))
@@ -32,7 +32,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/+PZfHvzjSiZc4OGE1") # Shareus tutorial video
 
 # Force sub channel ID, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002108419450"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
